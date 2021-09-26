@@ -9,3 +9,7 @@ fin = float(input("Input your final grades: "))
 avg = (pre + mid + sfin + fin) / 4
 print(" ")
 print("Your total average is {}" .format (avg))
+if avg >= 75:
+  print("==PASSED==")
+else:
+  print("==FAILED==")
